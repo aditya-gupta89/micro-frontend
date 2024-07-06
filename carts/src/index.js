@@ -1,4 +1,5 @@
-import faker from "faker";
-let cartText = `<div> you have ${faker.random.number()} items`;
+import faker from 'faker';
 
-document.querySelector("#dev-cart").innerHTML = cartText;
+const cartText = `<div>You have ${faker.random.number()} items in your cart</div>`;
+
+document.querySelector('#cart-dev').innerHTML = cartText;
