@@ -1,6 +1,7 @@
 import React from "react";
 import {Divider} from "@mui/material"
 import MarketingApp from "./components/MarketingApp";
+
 const App = () => {
   return (
     <>
