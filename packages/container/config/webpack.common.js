@@ -6,6 +6,7 @@ module.exports = {
     fallback: {
       path: require.resolve("path-browserify"),
     },
+    
     alias: {
       "@babel/runtime/helpers/esm/nonIterableSpread":
         "@babel/runtime/helpers/esm/nonIterableSpread.js",
