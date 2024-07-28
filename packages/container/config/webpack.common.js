@@ -14,6 +14,7 @@ module.exports = {
         "@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
     },
   },
+  
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
